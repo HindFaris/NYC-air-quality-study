@@ -17,12 +17,12 @@ This will install the necessary packages and libraries required for the project.
 
 ## Project Structure
 
--data_preparation
+data_preparation
   - data: Folder containing datasets as downloaded from different sources.
   - UHF42: Libraries allowing transformation of geolocation data into UHF42 neighborhoods.
   - data_preparation: Jupyter notebook containing all transformations done on datasets to result in one single dataset merging all data.
 
--data_exploration
+data_exploration
   - UHF42: Libraries allowing transformation of geolocation data into UHF42 neighborhoods.
   - data_exploration: Notebook containing the core of the study.
   - data_preprocessing: Some aggregations are done to simplify the study.
