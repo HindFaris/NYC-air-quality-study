@@ -4,10 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fe41384-2b34-4aa5-b55e-3c3f4ed0b4ca" name="Changes" comment="created functions to be used for clustering and feature importance, used those functions on O3 &amp; PM2.5 health outcomes">
+    <list default="true" id="9fe41384-2b34-4aa5-b55e-3c3f4ed0b4ca" name="Changes" comment="updated the data preparation, by choosing only important columns from building dataset and renaming some columns">
+      <change afterPath="$PROJECT_DIR$/data_exploration/data_preprocessing.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_17_02_2024_18_59__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_17_02_2024_18_59__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_17_02_2024_18_59__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_17_02_2024_18_59__Changes_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_17_02_2024_19_19__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_17_02_2024_19_19__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data_exploration/data_exploration.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/data_exploration/data_exploration.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_exploration/full_dataset.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/data_exploration/tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_exploration/tools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_preparation/Air_Quality_20240210.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_preparation/DOHMH_New_York_City_Restaurant_Inspection_Results_20240210.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_preparation/NYC EH Data Portal - Neighborhood poverty (filtered).csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_preparation/Parks_Properties_20240210.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_preparation/data_preparation.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/data_preparation/data_preparation.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_preparation/full_dataset.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_preparation/nyc_benchmarking_disclosure_data_reported_in_2016.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_preparation/traffic_dataset.csv" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,10 +30,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jupyter Notebook" />
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="data_preparation" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -168,7 +184,8 @@
     <MESSAGE value="Update the storage place of the prepared dataset" />
     <MESSAGE value="Preprocess the data by keeping only the interesting columns and conducting the necessary calculations" />
     <MESSAGE value="created functions to be used for clustering and feature importance, used those functions on O3 &amp; PM2.5 health outcomes" />
-    <option name="LAST_COMMIT_MESSAGE" value="created functions to be used for clustering and feature importance, used those functions on O3 &amp; PM2.5 health outcomes" />
+    <MESSAGE value="updated the data preparation, by choosing only important columns from building dataset and renaming some columns" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated the data preparation, by choosing only important columns from building dataset and renaming some columns" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/NYC_air_quality_study$tools.coverage" NAME="tools Coverage Results" MODIFIED="1708111870381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_exploration" />

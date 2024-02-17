@@ -1,3 +1,9 @@
+"""
+Created on 15/02/2024
+@author: Hind FARIS
+
+useful functions to analyse air quality dataset
+"""
 import pandas as pd
 import os
 import geopandas as gpd
@@ -40,11 +46,11 @@ def best_nb_cluster(
         silhouette_scores.append(silhouette)
 
     if show_plot_silhouette_scores and title is not None:
-        plt.figure(figsize=(9, 9))
+        plt.figure(figsize=(7, 5))
         plt.plot(range(nb_cluster_min, nb_cluster_max), silhouette_scores, marker='o')
-        plt.xlabel('Number of clusters', fontsize=15)
+        plt.xlabel('Number of clusters', fontsize=10)
         plt.xticks(range(nb_cluster_min, nb_cluster_max))
-        plt.ylabel('Silhouette score', fontsize=15)
+        plt.ylabel('Silhouette score', fontsize=10)
         plt.title(title, fontsize=15)
         plt.show()
 
@@ -111,16 +117,16 @@ def visualize_clusters_map(
         geo_data['Cluster'] = geo_data['Cluster'].map(dic_reorder)
 
     # visualizing the clusters on map
-    fig, ax = plt.subplots(1, 1, figsize=(9, 9))
+    fig, ax = plt.subplots(1, 1, figsize=(7, 7))
     geo_data.plot(column='Cluster', legend=True, edgecolor='black', ax=ax, cmap='Oranges',
                   categorical=True,
-                  legend_kwds={'fontsize': 12, 'title': "Cluster Number", 'title_fontsize': 12, 'loc': 'upper left'
+                  legend_kwds={'fontsize': 8, 'title': "Cluster Number", 'title_fontsize': 10, 'loc': 'upper left'
                                })
-    plt.title(title, fontsize=20)
+    plt.title(title, fontsize=15)
 
     # adding the numbers of the UHF42 to the map
     for idx, row in geo_data.iterrows():
-        ax.annotate(text=row['id'], xy=row['geometry'].centroid.coords[0], ha='center', fontsize=12, color='black')
+        ax.annotate(text=row['id'], xy=row['geometry'].centroid.coords[0], ha='center', fontsize=8, color='black')
     ax.set_axis_off()
 
 
@@ -161,8 +167,8 @@ def feature_importance(
     importance = importance[indices] * 100
 
     # Plot the feature importance's
-    plt.figure(figsize=(9, 9))
-    plt.barh(features, importance, orientation='horizontal', color="#008bfb")
+    plt.figure(figsize=(6, 5))
+    plt.barh(features, importance, orientation='horizontal', color="#008bfb", height=0.5)
     for index, value in enumerate(importance):
         plt.text(value, index, f'{value:.2f}%', va='center', fontweight='bold', ha='left')
     plt.title(title)
