@@ -30,10 +30,11 @@ data_exploration
 
 ## Reference
 
-[NYC Government Open Data - datasets on New York city](https://data.cityofnewyork.us/Environment/Air-Quality/c3uy-2p5r)
+[NYC Government Open Data](https://data.cityofnewyork.us/Environment/Air-Quality/c3uy-2p5r): Air Quality, Automated Traffic Volume Counts, Parks Properties Map, DOHMH New York City Restaurant Inspection Results
+Neighborhood poverty
 
-[Kaggle - building consumption data](https://www.kaggle.com/datasets/claytonmiller/new-york-city-buildings-energy-consumption-survey?fbclid=IwAR26gcwjnmJIlwTzyQ9WDNeG0bRFUjtOM2r594mZRD_2WUVkVXXPiryrP_w)
+[Kaggle dataset](https://www.kaggle.com/datasets/claytonmiller/new-york-city-buildings-energy-consumption-survey?fbclid=IwAR26gcwjnmJIlwTzyQ9WDNeG0bRFUjtOM2r594mZRD_2WUVkVXXPiryrP_w): New York City Buildings Energy Consumption Survey
 
-[Yuan Ren, Zelong Qu, Yuanyuan Du, Ronghua Xu, Danping Ma, Guofu Yang, Yan Shi, Xing Fan, Akira Tani, Peipei Guo, Ying Ge, Jie Chang,
-Air quality and health effects of biogenic volatile organic compounds emissions from urban green spaces and the mitigation strategies,
+Yuan Ren, Zelong Qu, Yuanyuan Du, Ronghua Xu, Danping Ma, Guofu Yang, Yan Shi, Xing Fan, Akira Tani, Peipei Guo, Ying Ge, Jie Chang,
+[Air quality and health effects of biogenic volatile organic compounds emissions from urban green spaces and the mitigation strategies,
 Environmental Pollution](https://www.sciencedirect.com/science/article/abs/pii/S0269749117309491)
