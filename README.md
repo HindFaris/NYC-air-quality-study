@@ -23,7 +23,7 @@ data_preparation
   - data_preparation: Jupyter notebook containing all transformations done on datasets to result in one single dataset merging all data.
 
 data_exploration
-  - UHF42: Libraries allowing transformation of geolocation data into UHF42 neighborhoods.
+  - UHF42: Files allowing transformation of geolocation data into UHF42 neighborhoods.
   - data_exploration: Notebook containing the core of the study.
   - data_preprocessing: Some aggregations are done to simplify the study.
   - final-dataset: The final dataset that will be used in the study.
