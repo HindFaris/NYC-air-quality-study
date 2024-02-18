@@ -19,7 +19,7 @@ This will install the necessary packages and libraries required for the project.
 
 data_preparation
   - data: Folder containing datasets as downloaded from different sources.
-  - UHF42: Libraries allowing transformation of geolocation data into UHF42 neighborhoods.
+  - UHF42: Files allowing transformation of geolocation data into UHF42 neighborhoods.
   - data_preparation: Jupyter notebook containing all transformations done on datasets to result in one single dataset merging all data.
 
 data_exploration
@@ -32,9 +32,9 @@ data_exploration
 
 ## Reference
 
-[NYC Government Open Data](https://data.cityofnewyork.us/Environment/Air-Quality/c3uy-2p5r)
+[NYC Government Open Data - multiple external factors data](https://data.cityofnewyork.us/Environment/Air-Quality/c3uy-2p5r)
 
-[Kaggle](https://www.kaggle.com/datasets/claytonmiller/new-york-city-buildings-energy-consumption-survey?fbclid=IwAR26gcwjnmJIlwTzyQ9WDNeG0bRFUjtOM2r594mZRD_2WUVkVXXPiryrP_w)
+[Kaggle - buildings consumption data](https://www.kaggle.com/datasets/claytonmiller/new-york-city-buildings-energy-consumption-survey?fbclid=IwAR26gcwjnmJIlwTzyQ9WDNeG0bRFUjtOM2r594mZRD_2WUVkVXXPiryrP_w)
 
 [Yuan Ren, Zelong Qu, Yuanyuan Du, Ronghua Xu, Danping Ma, Guofu Yang, Yan Shi, Xing Fan, Akira Tani, Peipei Guo, Ying Ge, Jie Chang,
 Air quality and health effects of biogenic volatile organic compounds emissions from urban green spaces and the mitigation strategies,
