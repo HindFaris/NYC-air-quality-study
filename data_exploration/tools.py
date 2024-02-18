@@ -105,7 +105,7 @@ def visualize_clusters_map(
     """
 
     # reading file containing the geodata used for visualization
-    file = os.path.join('UHF42', 'UHF42.shp')
+    file = os.path.join('..','data_preparation','UHF42', 'UHF42.shp')
     geo_data = gpd.read_file(file)
     geo_data.drop(0, inplace=True)
 
