@@ -4,190 +4,48 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fe41384-2b34-4aa5-b55e-3c3f4ed0b4ca" name="Changes" comment="updated the data preparation, by choosing only important columns from building dataset and renaming some columns">
-      <change afterPath="$PROJECT_DIR$/data_exploration/data_preprocessing.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_17_02_2024_18_59__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_17_02_2024_18_59__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_17_02_2024_18_59__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_17_02_2024_18_59__Changes_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_17_02_2024_19_19__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_17_02_2024_19_19__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_exploration/data_exploration.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/data_exploration/data_exploration.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_exploration/full_dataset.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_exploration/tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_exploration/tools.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_preparation/Air_Quality_20240210.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_preparation/DOHMH_New_York_City_Restaurant_Inspection_Results_20240210.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_preparation/NYC EH Data Portal - Neighborhood poverty (filtered).csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_preparation/Parks_Properties_20240210.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_preparation/data_preparation.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/data_preparation/data_preparation.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_preparation/full_dataset.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_preparation/nyc_benchmarking_disclosure_data_reported_in_2016.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_preparation/traffic_dataset.csv" beforeDir="false" />
-    </list>
+    <list default="true" id="f7319142-b663-48da-818e-1b71e1b60c3e" name="Changes" comment="updated" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-        <option value="Jupyter Notebook" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Merge.Settings">
-    <option name="BRANCH" value="data_preparation" />
+    <option name="BRANCH" value="data_exploration" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="data_preparation" />
+        <entry key="$PROJECT_DIR$" value="data_exploration" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;HindFaris&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="ef6df5f3-99db-4fba-add8-ebf4959774c8" />
-        <option name="url" value="https://github.com/HindFaris/nyc-air-quality-study.git" />
-      </UrlAndAccount>
-    </option>
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 7
-}</component>
-  <component name="ProjectId" id="2cAx3bsRSF98OEdgiX9UbdZUumb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;Python.tools.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;database.data.extractors.current.export.id&quot;: &quot;Comma-separated (CSV)_id&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;data__exploration&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;data__preparation&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/hindf/Documents/3eme annee TAF Dasci/1_A journey to Data Scientist/Projet/NYC-air-quality-study&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
 }</component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\hindf\Documents\3eme annee TAF Dasci\1_A journey to Data Scientist\Projet\NYC-air-quality-study" />
-    </key>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-python-sdk-5a2391486177-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13763.11" />
-      </set>
-    </attachedChunks>
-  </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="9fe41384-2b34-4aa5-b55e-3c3f4ed0b4ca" name="Changes" comment="" />
-      <created>1707567986634</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1707567986634</updated>
-      <workItem from="1707567988042" duration="700000" />
-      <workItem from="1707569346144" duration="41295000" />
-      <workItem from="1707668488775" duration="4265000" />
-      <workItem from="1707927610367" duration="14308000" />
-      <workItem from="1707945830679" duration="515000" />
-      <workItem from="1707946377666" duration="7835000" />
-      <workItem from="1708102888213" duration="14514000" />
-      <workItem from="1708169949164" duration="15176000" />
-    </task>
-    <task id="LOCAL-00001" summary="different datasets prepared and merged using UHF42">
-      <option name="closed" value="true" />
-      <created>1707668704466</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1707668704466</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Update the storage place of the prepared dataset">
-      <option name="closed" value="true" />
-      <created>1707946656589</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1707946656589</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Preprocess the data by keeping only the interesting columns and conducting the necessary calculations">
-      <option name="closed" value="true" />
-      <created>1707946747750</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1707946747750</updated>
-    </task>
-    <task id="LOCAL-00004" summary="created functions to be used for clustering and feature importance, used those functions on O3 &amp; PM2.5 health outcomes">
-      <option name="closed" value="true" />
-      <created>1708119908958</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1708119908959</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="data_preparation" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="different datasets prepared and merged using UHF42" />
-    <MESSAGE value="Update the storage place of the prepared dataset" />
-    <MESSAGE value="Preprocess the data by keeping only the interesting columns and conducting the necessary calculations" />
-    <MESSAGE value="created functions to be used for clustering and feature importance, used those functions on O3 &amp; PM2.5 health outcomes" />
     <MESSAGE value="updated the data preparation, by choosing only important columns from building dataset and renaming some columns" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated the data preparation, by choosing only important columns from building dataset and renaming some columns" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/NYC_air_quality_study$tools.coverage" NAME="tools Coverage Results" MODIFIED="1708111870381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_exploration" />
+    <MESSAGE value="updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated" />
   </component>
 </project>
