@@ -9,7 +9,7 @@ The goal is to investigate the impact of various external factors on air quality
 ```git clone https://github.com/HindFaris/nyc-air-quality-study```
 
 2. Navigate to the project directory:
-```nyc-air-quality-study```
+```cd nyc-air-quality-study```
 
 3. Install the required dependencies using the requirements.txt file. Make sure you have Python and pip installed. Create a virtual environment if necessary.
 ```pip install -r requirements.txt```
