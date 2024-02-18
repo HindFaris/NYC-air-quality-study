@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7319142-b663-48da-818e-1b71e1b60c3e" name="Changes" comment="updated the data preparation, by choosing only important columns from building dataset and renaming some columns">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_02_2024_11_42__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18_02_2024_11_42__Changes_.xml" afterDir="false" />
+    <list default="true" id="f7319142-b663-48da-818e-1b71e1b60c3e" name="Changes" comment="updated the UHF42 files path">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_exploration/UHF42/UHF42.dbf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_exploration/UHF42/UHF42.prj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_exploration/UHF42/UHF42.shp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_exploration/UHF42/UHF42.shx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/data_exploration/data_exploration.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/data_exploration/data_exploration.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_exploration/tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_exploration/tools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_exploration/data_preprocessing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/data_exploration/data_preprocessing.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_preparation/data_preparation.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/data_preparation/data_preparation.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +36,15 @@
   }
 }]]></component>
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="updated the UHF42 files path">
+      <option name="closed" value="true" />
+      <created>1708254240237</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708254240237</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -56,6 +61,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated" />
     <MESSAGE value="updated the data preparation, by choosing only important columns from building dataset and renaming some columns" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated the data preparation, by choosing only important columns from building dataset and renaming some columns" />
+    <MESSAGE value="updated the UHF42 files path" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated the UHF42 files path" />
   </component>
 </project>

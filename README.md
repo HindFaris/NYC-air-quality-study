@@ -26,14 +26,13 @@ data_exploration
   - data_exploration: Notebook containing the core of the study.
   - data_preprocessing: Some aggregations are done to simplify the study.
   - final-dataset: The final dataset that will be used in the study.
-  - final-dataset.csv: The data resulted from the preprocessing.
   - tools: Functions and tools used in the project.
 
 ## Reference
 
-[NYC Government Open Data](https://data.cityofnewyork.us/Environment/Air-Quality/c3uy-2p5r)
+[NYC Government Open Data - datasets on New York city](https://data.cityofnewyork.us/Environment/Air-Quality/c3uy-2p5r)
 
-[Kaggle](https://www.kaggle.com/datasets/claytonmiller/new-york-city-buildings-energy-consumption-survey?fbclid=IwAR26gcwjnmJIlwTzyQ9WDNeG0bRFUjtOM2r594mZRD_2WUVkVXXPiryrP_w)
+[Kaggle - building consumption data](https://www.kaggle.com/datasets/claytonmiller/new-york-city-buildings-energy-consumption-survey?fbclid=IwAR26gcwjnmJIlwTzyQ9WDNeG0bRFUjtOM2r594mZRD_2WUVkVXXPiryrP_w)
 
 [Yuan Ren, Zelong Qu, Yuanyuan Du, Ronghua Xu, Danping Ma, Guofu Yang, Yan Shi, Xing Fan, Akira Tani, Peipei Guo, Ying Ge, Jie Chang,
 Air quality and health effects of biogenic volatile organic compounds emissions from urban green spaces and the mitigation strategies,
