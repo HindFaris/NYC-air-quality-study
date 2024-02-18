@@ -26,7 +26,6 @@ data_exploration
   - data_exploration: Notebook containing the core of the study.
   - data_preprocessing: Some aggregations are done to simplify the study.
   - final-dataset.csv: The final dataset that will be used in the study.
-  - final-dataset.csv: The data resulted from the preprocessing.
   - tools: Functions and tools used in the project.
 
 ## Reference
